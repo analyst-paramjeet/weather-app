@@ -1,0 +1,48 @@
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form label {
+  margin-right: 1em;
+}
+
+form div {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+form input {
+  border-radius: 0.2em;
+  border: 1px solid white;
+  padding: 0.2em;
+}
+form input:focus {
+  outline-color: rgb(73, 153, 223);
+}
+
+input[type="checkbox"] {
+  accent-color: #f9c23c;
+}
+input[type="checkbox"]:checked:after {
+  color: white;
+}
+
+form button {
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 10em;
+  background-color: rgb(73, 153, 223);
+  color: white;
+  border-radius: 1em;
+  border: 1px solid white;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: rgb(102, 168, 226);
+
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
